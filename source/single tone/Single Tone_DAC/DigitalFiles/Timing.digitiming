@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TimingFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xmlns="http://www.ni.com/Semiconductor/Timing">
+  <TimingSheet>
+    <TimeSets>
+      <TimeSet name="Ten_ns">
+        <Period>10 ns</Period>
+        <PinEdges>
+          <PinEdge pin="AllPins">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>10 ns</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>5 ns</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="Hundered_ns">
+        <Period>100 ns</Period>
+        <PinEdges>
+          <PinEdge pin="AllPins">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>100 ns</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>50 ns</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="Fifty_ns">
+        <Period>50 ns</Period>
+        <PinEdges>
+          <PinEdge pin="AllPins">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>50 ns</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>25 ns</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="TwoHundered_ns">
+        <Period>200 ns</Period>
+        <PinEdges>
+          <PinEdge pin="AllPins">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>200 ns</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>100 ns</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+    </TimeSets>
+  </TimingSheet>
+</TimingFile>
