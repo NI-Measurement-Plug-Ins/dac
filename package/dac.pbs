@@ -1,378 +1,39 @@
 ﻿<Solution xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Engine">
     <Name>dac</Name>
-    <SourceItems>
-        <SourceItem z:Id="i2">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\DigitalFiles\DAC61402.digiproj</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i3">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\DigitalFiles\Pattern.digipat</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i4">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\DigitalFiles\PinLevels.digilevels</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i5">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\DigitalFiles\PinMap.pinmap</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i6">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\DigitalFiles\SourceWaveform.tdms</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i7">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\DigitalFiles\Specifications.specs</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i8">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\DigitalFiles\Timing.digitiming</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i9">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i10">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i11">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Libraries\Win32\labview_grpc_server.dll</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i12">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Libraries\Win64\labview_grpc_server.dll</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i13">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Linearity_DAC.aliases</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i14">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Linearity_DAC.exe</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i15">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Linearity_DAC.ini</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i16">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Linearity_DAC.lvlib</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i17">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Linearity_DAC.serviceconfig</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i18">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Measurement UI.vi</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i19">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Libraries\Linux</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i9" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i20">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Libraries\LinuxRT</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i10" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i21">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Libraries\Win32</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i11" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i22">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Libraries\Win64</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i12" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i23">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\DigitalFiles</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i2" />
-                <SourceItem z:Ref="i3" />
-                <SourceItem z:Ref="i4" />
-                <SourceItem z:Ref="i5" />
-                <SourceItem z:Ref="i6" />
-                <SourceItem z:Ref="i7" />
-                <SourceItem z:Ref="i8" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i24">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC\Libraries</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i19" />
-                <SourceItem z:Ref="i20" />
-                <SourceItem z:Ref="i21" />
-                <SourceItem z:Ref="i22" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i25">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds\Linearity Measurements_DAC</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i13" />
-                <SourceItem z:Ref="i14" />
-                <SourceItem z:Ref="i15" />
-                <SourceItem z:Ref="i16" />
-                <SourceItem z:Ref="i17" />
-                <SourceItem z:Ref="i18" />
-                <SourceItem z:Ref="i23" />
-                <SourceItem z:Ref="i24" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i26">
-            <PluginConfigurationOptions />
-            <RelativePath>..\source\builds</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i25" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-    </SourceItems>
-    <InputSourceItems>
-        <SourceItem z:Ref="i26" />
-    </InputSourceItems>
+    <SourceItems />
+    <InputSourceItems />
     <Distributions>
-        <Distribution z:Id="i27" i:type="Package">
+        <Distribution z:Id="i2" i:type="Package">
             <DistributionItems>
-                <DistributionItem z:Id="i28" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i3" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments</DestinationRelativePath>
                     <Name>National Instruments</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i29" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i4" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink</DestinationRelativePath>
                     <Name>MeasurementLink</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i30" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i5" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services</DestinationRelativePath>
                     <Name>Services</Name>
                     <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i31" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC</DestinationRelativePath>
-                    <Name>Linearity Measurements_DAC</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i32" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Linearity_DAC.aliases</DestinationRelativePath>
-                    <Name>Linearity_DAC.aliases</Name>
-                    <SourceItem z:Ref="i13" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i33" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Linearity_DAC.exe</DestinationRelativePath>
-                    <Name>Linearity_DAC.exe</Name>
-                    <SourceItem z:Ref="i14" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i34" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Linearity_DAC.ini</DestinationRelativePath>
-                    <Name>Linearity_DAC.ini</Name>
-                    <SourceItem z:Ref="i15" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i35" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Linearity_DAC.lvlib</DestinationRelativePath>
-                    <Name>Linearity_DAC.lvlib</Name>
-                    <SourceItem z:Ref="i16" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i36" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Linearity_DAC.serviceconfig</DestinationRelativePath>
-                    <Name>Linearity_DAC.serviceconfig</Name>
-                    <SourceItem z:Ref="i17" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i37" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Measurement UI.vi</DestinationRelativePath>
-                    <Name>Measurement UI.vi</Name>
-                    <SourceItem z:Ref="i18" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i38" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\DigitalFiles</DestinationRelativePath>
-                    <Name>DigitalFiles</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i39" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\DigitalFiles\DAC61402.digiproj</DestinationRelativePath>
-                    <Name>DAC61402.digiproj</Name>
-                    <SourceItem z:Ref="i2" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i40" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\DigitalFiles\Pattern.digipat</DestinationRelativePath>
-                    <Name>Pattern.digipat</Name>
-                    <SourceItem z:Ref="i3" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i41" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\DigitalFiles\PinLevels.digilevels</DestinationRelativePath>
-                    <Name>PinLevels.digilevels</Name>
-                    <SourceItem z:Ref="i4" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i42" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\DigitalFiles\PinMap.pinmap</DestinationRelativePath>
-                    <Name>PinMap.pinmap</Name>
-                    <SourceItem z:Ref="i5" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i43" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\DigitalFiles\SourceWaveform.tdms</DestinationRelativePath>
-                    <Name>SourceWaveform.tdms</Name>
-                    <SourceItem z:Ref="i6" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i44" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\DigitalFiles\Specifications.specs</DestinationRelativePath>
-                    <Name>Specifications.specs</Name>
-                    <SourceItem z:Ref="i7" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i45" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\DigitalFiles\Timing.digitiming</DestinationRelativePath>
-                    <Name>Timing.digitiming</Name>
-                    <SourceItem z:Ref="i8" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i46" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Libraries</DestinationRelativePath>
-                    <Name>Libraries</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i47" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Libraries\Linux</DestinationRelativePath>
-                    <Name>Linux</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i48" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i9" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i49" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Libraries\LinuxRT</DestinationRelativePath>
-                    <Name>LinuxRT</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i50" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i10" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i51" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i52" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i11" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i53" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Libraries\Win64</DestinationRelativePath>
-                    <Name>Win64</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i54" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Linearity Measurements_DAC\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i12" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
             </DistributionItems>
             <Name>dac</Name>
             <OutputDirectory>Packages</OutputDirectory>
             <PluginConfigurationOptions>
-                <ConfigurationOption z:Id="i55">
-                    <Definition z:Id="i56">
+                <ConfigurationOption z:Id="i6">
+                    <Definition z:Id="i7">
                         <Description>Publish LabVIEW NXG projects as examples or templates.</Description>
                         <Name>Publish examples to LabVIEW NXG</Name>
                     </Definition>
                     <HasDefaultValues>true</HasDefaultValues>
-                    <Value z:Id="i57" i:type="DialogConfigurationOptionValue">
+                    <Value z:Id="i8" i:type="DialogConfigurationOptionValue">
                         <Values>
-                            <ConfigurationOptionValue z:Id="i58" xmlns:d8p1="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Plugins.LabVIEWNXG" i:type="d8p1:LauncherContentConfigurationOptionValue">
-                                <d8p1:Value z:Id="i59" i:type="d8p1:LauncherRoot">
+                            <ConfigurationOptionValue z:Id="i9" xmlns:d8p1="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Plugins.LabVIEWNXG" i:type="d8p1:LauncherContentConfigurationOptionValue">
+                                <d8p1:Value z:Id="i10" i:type="d8p1:LauncherRoot">
                                     <d8p1:Children />
                                 </d8p1:Value>
                             </ConfigurationOptionValue>
@@ -383,7 +44,7 @@
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
             <Architecture>windows_x64</Architecture>
             <AutoIncrementVersion>Build</AutoIncrementVersion>
-            <BuildStatus z:Id="i60">
+            <BuildStatus z:Id="i11">
                 <BuildEverSuccessful>true</BuildEverSuccessful>
                 <FileName>community-dac_1.0.0.1_windows_x64.nipkg</FileName>
                 <Version>1.0.0.1</Version>
@@ -408,9 +69,9 @@
     </Distributions>
     <Feeds />
     <DistributionGroups>
-        <DistributionGroup z:Id="i61">
+        <DistributionGroup z:Id="i12">
             <Distributions>
-                <Distribution z:Ref="i27" />
+                <Distribution z:Ref="i2" />
             </Distributions>
             <Name>Distribution Group</Name>
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
