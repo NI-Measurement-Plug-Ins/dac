@@ -1,22 +1,30 @@
 ## Build EXE for each measurement
 Breif explanation on how to create a build for dac measurement .exe by taking Linearity measurement as an example.
-1. Open the LinearityMeasurement_DAC.lvproj
+1. Open the measurement lvproj for which you would like to build EXE and select 'Build Specifications'.
     
     ![alt text](images/dac-linearity-lvproj.PNG)
 
-2. Expand the build Specification and open Linearity_DAC.
+2. Right click the build spec for UI (if present) and click 'Build' (this step can be skipped for lvproj wihout UI build spec).
+
+    ![alt text](images/dac-singletone-ui-buildspec.png)
+
+3. Once the build is complete, 'BuiltUI' folder can be seen under the measurement folder.
+
+    ![alt text](images/dac-singletone-ui-buildfolder.png)
+
+4. Right click the build spec for EXE and clilck 'Build'.
 
     ![alt text](images/dac-linearity-build.PNG)
 
-3. click 'build'.
+5. Build Spec.
     
     ![alt text](images/dac-linearity-buildSpec.PNG)
 
-4. Once the build is completed, can able to see below window and with explore you can able to go to build created location
+6. Once the build is completed, can able to see below window and with explore you can able to go to build created location
     
     ![alt text](images/dac-linearity-buildcore.PNG)
 
-5. The AC measurement build folder created under "data-converter-validation-module\Builds"
+7. The Linearity measurement build folder created under "data-converter-validation-module\Builds"
     
     ![alt text](images/dac-builds.PNG)
 

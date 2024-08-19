@@ -6,10 +6,12 @@ This repo provides measurement plugins for general purpose / precision DAC DUTs.
 ## Key Features
 - Measurements
     - Linearity Measurement
+    - Single Tone Measurement
 
 ## Hardware setup:
 - NI 657x
-- NI 4081
+- NI 4081 (for Linearity measuremenet)
+- NI 5922 (for Single Tone measurement)
 - SMU or power supply (note: the software does not use the SMU/power supply but need something to power the DUT)
 
 ## Software dependencies:
@@ -18,3 +20,4 @@ This repo provides measurement plugins for general purpose / precision DAC DUTs.
 - MeasurementLink Dependencies (https://github.com/ni/measurementlink-labview/releases/tag/v2.0.0.1)
 - NI Digital driver (22.8 or higher)
 - NI DMM driver (22.8 or higher)
+- NI Scope driver (22.8 or higher)

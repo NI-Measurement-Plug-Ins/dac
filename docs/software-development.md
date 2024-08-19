@@ -9,6 +9,7 @@ If you want to commit changes to the repo, we recommend you use the current vers
 - LabView gRPC support for LabView v1.0.1.1 (https://github.com/ni/grpc-labview/releases/tag/v1.0.1.1)
 - NI Digital driver (22.8 or higher)
 - NI DMM driver (22.8 or higher)
+- NI Scope driver (22.8 or higher)
 
 
 ## Tested with:
