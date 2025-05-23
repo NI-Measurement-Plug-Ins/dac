@@ -165,7 +165,7 @@
 				<Property Name="Destination[2].destName" Type="Str">DigitalFilesDirectory</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/Linearity_DAC/DigitalFiles</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{22326F53-3482-4FE0-A16E-06C763650DC9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0A215B3C-9EA1-44FE-85B6-E09A2E9DE0E5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Linearity_DAC.lvlib/Get Measurement Details.vi</Property>
