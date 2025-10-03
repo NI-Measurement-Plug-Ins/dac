@@ -27,12 +27,12 @@
 		<Site siteNumber="0" />
 	</Sites>
 	<Connections>
-		<Connection pin="SYNC" siteNumber="0" instrument="6571" channel="24" />
-		<Connection pin="SCLK" siteNumber="0" instrument="6571" channel="28" />
-		<Connection pin="SDI" siteNumber="0" instrument="6571" channel="30" />
-		<Connection pin="SDO" siteNumber="0" instrument="6571" channel="17" />
-		<Connection pin="LDAC" siteNumber="0" instrument="6571" channel="18" />
-		<Connection pin="RESET" siteNumber="0" instrument="6571" channel="5" />
+		<Connection pin="SYNC" siteNumber="0" instrument="6571" channel="22" />
+		<Connection pin="SCLK" siteNumber="0" instrument="6571" channel="16" />
+		<Connection pin="SDI" siteNumber="0" instrument="6571" channel="26" />
+		<Connection pin="SDO" siteNumber="0" instrument="6571" channel="25" />
+		<Connection pin="LDAC" siteNumber="0" instrument="6571" channel="27" />
+		<Connection pin="RESET" siteNumber="0" instrument="6571" channel="21" />
 		<Connection pin="PFI" siteNumber="0" instrument="6571" channel="7" />
 	</Connections>
 </PinMap>

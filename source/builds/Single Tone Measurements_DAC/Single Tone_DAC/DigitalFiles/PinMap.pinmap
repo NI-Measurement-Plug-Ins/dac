@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.5">
+	<Instruments>
+		<NIDigitalPatternInstrument name="6571" numberOfChannels="32" group="Digital" />
+	</Instruments>
+	<Pins>
+		<DUTPin name="SYNC" />
+		<DUTPin name="SCLK" />
+		<DUTPin name="SDI" />
+		<DUTPin name="SDO" />
+		<DUTPin name="LDAC" />
+		<DUTPin name="RESET" />
+		<DUTPin name="PFI" />
+	</Pins>
+	<PinGroups>
+		<PinGroup name="AllPins">
+			<PinReference pin="SYNC" />
+			<PinReference pin="SCLK" />
+			<PinReference pin="SDI" />
+			<PinReference pin="SDO" />
+			<PinReference pin="LDAC" />
+			<PinReference pin="RESET" />
+			<PinReference pin="PFI" />
+		</PinGroup>
+	</PinGroups>
+	<Sites>
+		<Site siteNumber="0" />
+	</Sites>
+	<Connections>
+		<Connection pin="SYNC" siteNumber="0" instrument="6571" channel="22" />
+		<Connection pin="SCLK" siteNumber="0" instrument="6571" channel="16" />
+		<Connection pin="SDI" siteNumber="0" instrument="6571" channel="26" />
+		<Connection pin="SDO" siteNumber="0" instrument="6571" channel="25" />
+		<Connection pin="LDAC" siteNumber="0" instrument="6571" channel="27" />
+		<Connection pin="RESET" siteNumber="0" instrument="6571" channel="21" />
+		<Connection pin="PFI" siteNumber="0" instrument="6571" channel="7" />
+	</Connections>
+</PinMap>
